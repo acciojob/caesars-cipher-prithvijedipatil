@@ -11,12 +11,12 @@ const lookup = {
 };
 
 function rot13(encodedStr){
-   let decodedArr = []; // Your Result goes here
+   let decodedArr =""; // Your Result goes here
   // Only change code below this line
 	for(var i=0;i<encodedStr.length;i++){
 		var result = encodedStr.charAt(i);
 		
-		decodedArr.push(lookup[result]??encoder.charAt[i]);
+		decodedArr = decodedArr + lookup[result]??encoder.charAt[i];
 		
 		
 	}
